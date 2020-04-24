@@ -1,8 +1,8 @@
-h1 { text-align: center; }
+h1 { text-align: center; font-family: "Permanent Marker", cursive; background-color: #222f3e; color: #fff; border-radius: 15px; width: 300px; margin: 0 auto; text-shadow: 3px 4px #70a1ff; }
 
 .festivo { background-color: #0abde3; }
 
-.main { background-color: #222f3e; color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+.main { -webkit-box-shadow: 10px 10px 5px grey; box-shadow: 10px 10px 5px grey; text-shadow: 1px 1px #70a1ff; font-family: "Indie Flower", cursive; background-color: #222f3e; color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; border-radius: 100px; }
 
 .main .container { width: 27%; border: 10px solid #fff; }
 
@@ -12,6 +12,14 @@ h1 { text-align: center; }
 
 .main .container .item-row div { border: 1px solid gray; width: 13%; }
 
-@media (max-width: 600px) { .container { width: 100% !important; background-color: #576574; } }
+/*
+  @media screen and (min-width: 900px)and(max-width:1366px) {
+    .container {
+      width: 41% !important;
+      background-color: $coral;
+    }
+  }
+*/
+@media screen and (min-width: 600px) and (max-width: 900px) { .container { width: 41% !important; background-color: #ff6348; } }
 
-@media (min-width: 600px) { .container { width: 41% !important; background-color: #8395a7; } }
+@media screen and (max-width: 600px) { .container { width: 100% !important; background-color: #ff6b81; } }

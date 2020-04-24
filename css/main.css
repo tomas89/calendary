@@ -1,0 +1,17 @@
+h1 { text-align: center; }
+
+.festivo { background-color: #0abde3; }
+
+.main { background-color: #222f3e; color: #fff; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.main .container { width: 27%; border: 10px solid #fff; }
+
+.main .container .item-col { border: 1px solid gray; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-pack: distribute; justify-content: space-around; width: 94%; }
+
+.main .container .item-row { display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; text-align: center; }
+
+.main .container .item-row div { border: 1px solid gray; width: 13%; }
+
+@media (max-width: 600px) { .container { width: 100% !important; background-color: #576574; } }
+
+@media (min-width: 600px) { .container { width: 41% !important; background-color: #8395a7; } }
